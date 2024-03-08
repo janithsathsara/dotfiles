@@ -1,0 +1,15 @@
+; [user]
+; 	signingkey = A5F4A5ADC14B94F5
+; [commit]
+; 	gpgsign = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = janithsathsara
+	email = sathsarah@gmail.com
+[core]
+	editor = nvim
